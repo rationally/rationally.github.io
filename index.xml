@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rationally</title>
+    <link>https://rationally.github.io/index.xml</link>
+    <description>Recent content on rationally</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Nov 2016 15:13:09 +0100</lastBuildDate>
+    <atom:link href="https://rationally.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What is rationally?</title>
+      <link>https://rationally.github.io/basics/what-is-rationally/</link>
+      <pubDate>Mon, 14 Nov 2016 15:13:09 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/basics/what-is-rationally/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;rationally&lt;/strong&gt; allows the documentation of architecture decisions within Microsoft Visio. Architecture decisions play an important role in the development of &lt;strong&gt;software-intensive systems&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This add-in provides an easy way for architects to easily capture the essence of their architecture decisions in order to improve the communication with important stakeholders.&lt;/p&gt;
+
+&lt;p&gt;You can download the &lt;a href=&#34;https://github.com/rationally/rationally_visio/releases/latest&#34;&gt;lastest version of &lt;strong&gt;rationally&lt;/strong&gt; on GitHub.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://rationally.github.io/images/overview.png&#34; alt=&#34;Overview of rationally&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>https://rationally.github.io/basics/requirements/</link>
+      <pubDate>Mon, 14 Nov 2016 15:14:10 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/basics/requirements/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;rationally&lt;/strong&gt; requires at least&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Microsoft Visio 2016&lt;/li&gt;
+&lt;li&gt;Microsoft .Net 4.0&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to start developing</title>
+      <link>https://rationally.github.io/contributing/how-to-start-developing/</link>
+      <pubDate>Tue, 15 Nov 2016 16:37:47 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/contributing/how-to-start-developing/</guid>
+      <description>
+
+&lt;h2 id=&#34;development-environment&#34;&gt;Development Environment&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Microsoft Visual Studio Community Edition
+
+&lt;ul&gt;
+&lt;li&gt;with the following add-ins&lt;/li&gt;
+&lt;li&gt;JetBrains Resharper&lt;/li&gt;
+&lt;li&gt;tbc&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;The following development environment is only a suggestion, you are free to chose the tools and platform you fancy.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;setup-project&#34;&gt;Setup Project&lt;/h2&gt;
+
+&lt;p&gt;Checkout a fresh copy of the source code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/rationally/rationally_visio.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or use the GitHub add-in for Microsoft VisualStudio.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://rationally.github.io/basics/getting-started/</link>
+      <pubDate>Mon, 14 Nov 2016 15:14:28 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/basics/getting-started/</guid>
+      <description>
+
+&lt;p&gt;This manual guides you through the first steps of using &lt;strong&gt;rationally&lt;/strong&gt;. it explains how to document a decision in Visio using rationally&amp;rsquo;s &lt;em&gt;decision viewpoint&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You need to have at least Microsoft Visio 2016&lt;/li&gt;
+&lt;li&gt;You need to have *&lt;em&gt;rationally&lt;/em&gt; installed on your machine.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;You can verify if rationally has been installed correctly in the following ways.
+It should be listed under &amp;ldquo;&lt;em&gt;add or remove programs&lt;/em&gt; &amp;ldquo; in the Window&amp;rsquo;s control center and
+it should be listed as an add-in in Visio itself. You can verify this by navigating to &amp;ldquo;&lt;em&gt;File/Options/add-ins&lt;/em&gt;&amp;rdquo;. Under &lt;em&gt;Active Application&lt;/em&gt; Add-ins, &lt;strong&gt;rationally-visio&lt;/strong&gt; should be listed.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;a  href=&#34;https://github.com/rationally/rationally_visio/releases/latest&#34; target=&#34;_blank&#34;  class=&#34;btn btn-default&#34;&gt;
+  
+  
+  
+    
+  &lt;i class=&#34;fa fa-arrow-down&#34;&gt;&lt;/i&gt;
+    
+  
+  Get rationally
+  
+&lt;/a&gt;
+
+
+&lt;h2 id=&#34;documenting-your-first-decision&#34;&gt;Documenting your first decision&lt;/h2&gt;
+
+&lt;h3 id=&#34;1-open-microsoft-visio&#34;&gt;1) Open Microsoft Visio&lt;/h3&gt;
+
+&lt;p&gt;Once you have opened Visio, an overview of templates will be shown to you. These templates are intended to save you some work setting up a document. They can contain some shapes in their sheet, so that you don’t have to add them yourself and they can open stencils for you, so that you have quick access to shapes relevant to the document you are designing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://rationally.github.io/images/0ChooseTemplate.png&#34; alt=&#34;Choose the template&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;2-select-the-decision-view-template-h3&#34;&gt;2) Select the decision view template .&lt;/h3&gt;&lt;/h3&gt;
+
+&lt;p&gt;In the template overview, the &lt;em&gt;decision view&lt;/em&gt; should be visible. If so, select it. If not, you can find it under &lt;em&gt;C:/Program Files/rationally-visio/&lt;/em&gt; You can manually open the template by clicking the icon in the right bottom of the overview that says &lt;em&gt;“New from existing…”.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://rationally.github.io/images/1CreateTemplate.png&#34; alt=&#34;Create a new decision view&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-fill-in-general-information-about-the-decision-h3&#34;&gt;3) Fill in general information about the decision.&lt;/h3&gt;&lt;/h3&gt;
+
+&lt;p&gt;After the document has been created, a wizard guides you through the first steps of documenting your decisions. This includes general information like the decision’s name and topic as well as the author and the date of the decision.&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;The author of the decision document is not necessarily the same person that is responsible for the decision. The main responsible for a decision can be indicated on the decision document under “Involved Stakeholder”.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&#34;https://rationally.github.io/images/2FillInGeneralImplementation.png&#34; alt=&#34;Decision view wizard&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;4-adding-considered-alternatives-h3&#34;&gt;4) Adding considered alternatives.&lt;/h3&gt;&lt;/h3&gt;
+
+&lt;p&gt;The general information that you filled in is the first content that is shown on your decision sheet. The next step is to add candidate solutions/implementations, or &lt;em&gt;Alternatives&lt;/em&gt;. These describe different solutions for the problem you might be solving, or more general: different strategies. To add an alternative, select the &lt;em&gt;Alternatives&lt;/em&gt;-container by left-clicking it once (close to its borders). Once it is selected, sizing controls will appear around it. Now, right-click on the selected container and pick the option &amp;ldquo;_Add alternative_” from its context menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://rationally.github.io/images/4AddAlternative.png&#34; alt=&#34;Add a solution alternative&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;6-start-adding-content-to-the-sheet&#34;&gt;6) Start adding content to the sheet.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://rationally.github.io/images/6AddedComponents.png&#34; alt=&#34;Add a solution alternative&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you know how to perform the most important steps, you can start adding content. For example describing the decision you are documenting in the &lt;em&gt;Description&lt;/em&gt; area, or describing the &lt;em&gt;Alternatives&lt;/em&gt; you are adding.&lt;/p&gt;
+
+&lt;p&gt;But Rationally offers a lot more. For example, you can add related documents on the bottom of the sheet in the &lt;em&gt;Related Documents&lt;/em&gt; area, or you could compare different alternatives in the &lt;em&gt;Evaluation&lt;/em&gt; area, by adding forces and rating your alternatives.&lt;/p&gt;
+
+&lt;p&gt;This manual provided you with some basic start up steps for documenting decisions using rationally. We will describe different components in more detail in other manuals.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to create a release</title>
+      <link>https://rationally.github.io/contributing/how-to-create-a-release/</link>
+      <pubDate>Tue, 15 Nov 2016 16:37:43 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/contributing/how-to-create-a-release/</guid>
+      <description>
+
+&lt;h2 id=&#34;release-guide&#34;&gt;Release Guide&lt;/h2&gt;
+
+&lt;p&gt;The following list describes the steps that need to be taken in order to release a new version of rationally.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Increase the version number&lt;/strong&gt; in the files &lt;code&gt;RationallyAddin.cs&lt;/code&gt; and &lt;code&gt;product.wxs&lt;/code&gt;. The version number should follow  &lt;a href=&#34;http://semver.org/&#34;&gt;semantic versioning guidelines&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit and push latest changes.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Assert that the &lt;code&gt;setup-project&lt;/code&gt; contains the latest templates and stencils.&lt;/li&gt;
+&lt;li&gt;Assert that the version number in &lt;code&gt;RationallyAddin.cs&lt;/code&gt; and &lt;code&gt;product.wxs&lt;/code&gt; are the same.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Build the msi.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Assert that the msi was built in &lt;code&gt;RELEASE&lt;/code&gt; mode (not DEBUG).&lt;/li&gt;
+&lt;li&gt;Add the version number to the name of the msi. (e.g., &lt;em&gt;rationally_v0-1-2.msi&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Sign the msi using the &lt;a href=&#34;https://msdn.microsoft.com/de-de/library/8s9b9yaz(v=vs.110).aspx&#34;&gt;Microsoft signtool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create a &lt;a href=&#34;https://github.com/rationally/rationally_visio/releases&#34;&gt;release on Github&lt;/a&gt;.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;The release should have the same version number as the msi.&lt;/li&gt;
+&lt;li&gt;Add release notes.&lt;/li&gt;
+&lt;li&gt;Upload the msi file.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;notices warning&#34; &gt;We use a simplified semantic versioning scheme consisting of major.minor.build, e.g., 2.3.4. The version indicator should only contain numbers, otherwise users are not automatically informed about a new release.&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://rationally.github.io/welcome/</link>
+      <pubDate>Tue, 15 Nov 2016 15:51:59 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/welcome/</guid>
+      <description>
+
+&lt;h3 id=&#34;welcome-to&#34;&gt;Welcome to&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://rationally.github.io/images/logo_vertical.png&#34; width=&#34;150&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;A decision documentation add-in for Microsoft Visio.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a  href=&#34;https://github.com/rationally/rationally_visio/releases/latest&#34; target=&#34;_blank&#34;  class=&#34;btn btn-default&#34;&gt;
+  
+  
+  
+    
+  &lt;i class=&#34;fa fa-arrow-down&#34;&gt;&lt;/i&gt;
+    
+  
+  Get rationally
+  
+&lt;/a&gt;
+
+&lt;a  href=&#34;https://github.com/rationally/rationally_visio&#34; target=&#34;_blank&#34;  class=&#34;btn btn-default&#34;&gt;
+  
+  
+  
+    
+  &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;
+    
+  
+  View Project on GitHub
+  
+&lt;/a&gt;
+
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;small&gt;
+This project is maintained by the &lt;a href=&#34;http://cs.rug.nl/search&#34;&gt;Software Engineering and Architecture research group&lt;/a&gt; of the &lt;a href=&#34;http://www.rug.nl&#34;&gt;University of Groningen&lt;/a&gt;
+&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.rug.nl/about-us/how-to-find-us/huisstijl/logobank/corporatelogo/corporatelogorood/rugr_logoen_rood_rgb.jpg&#34; width=&#34;200&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contributing</title>
+      <link>https://rationally.github.io/contributing/</link>
+      <pubDate>Mon, 14 Nov 2016 15:15:17 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/contributing/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-2&#34;&gt;Chapter 2&lt;/h3&gt;
+
+&lt;h1 id=&#34;contributing&#34;&gt;Contributing&lt;/h1&gt;
+
+&lt;p&gt;You can contribute to &lt;strong&gt;rationally&lt;/strong&gt; by&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;by &lt;a href=&#34;https://github.com/rationally/rationally_visio/issues/new&#34;&gt;reporting issues, questions, enhancements&lt;/a&gt; on our &lt;a href=&#34;https://github.com/rationally/rationally_visio/issues&#34;&gt;project&amp;rsquo;s GitHub page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;by &lt;a href=&#34;https://github.com/rationally/rationally_hugo/tree/master/content&#34;&gt;updating and revising&lt;/a&gt; this documentation.&lt;/li&gt;
+&lt;li&gt;by contributing changes and fixes to &lt;strong&gt;rationally&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Basics</title>
+      <link>https://rationally.github.io/basics/</link>
+      <pubDate>Mon, 14 Nov 2016 15:10:03 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/basics/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-1&#34;&gt;Chapter 1&lt;/h3&gt;
+
+&lt;h1 id=&#34;basics&#34;&gt;Basics&lt;/h1&gt;
+
+&lt;p&gt;Discover what &lt;strong&gt;rationally&lt;/strong&gt; is all about and how to use it in your daily work.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

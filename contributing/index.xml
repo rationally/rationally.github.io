@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contributings on rationally</title>
+    <link>https://rationally.github.io/contributing/index.xml</link>
+    <description>Recent content in Contributings on rationally</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Nov 2016 15:15:17 +0100</lastBuildDate>
+    <atom:link href="https://rationally.github.io/contributing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contributing</title>
+      <link>https://rationally.github.io/contributing/</link>
+      <pubDate>Mon, 14 Nov 2016 15:15:17 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/contributing/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-2&#34;&gt;Chapter 2&lt;/h3&gt;
+
+&lt;h1 id=&#34;contributing&#34;&gt;Contributing&lt;/h1&gt;
+
+&lt;p&gt;You can contribute to &lt;strong&gt;rationally&lt;/strong&gt; by&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;by &lt;a href=&#34;https://github.com/rationally/rationally_visio/issues/new&#34;&gt;reporting issues, questions, enhancements&lt;/a&gt; on our &lt;a href=&#34;https://github.com/rationally/rationally_visio/issues&#34;&gt;project&amp;rsquo;s GitHub page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;by &lt;a href=&#34;https://github.com/rationally/rationally_hugo/tree/master/content&#34;&gt;updating and revising&lt;/a&gt; this documentation.&lt;/li&gt;
+&lt;li&gt;by contributing changes and fixes to &lt;strong&gt;rationally&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to start developing</title>
+      <link>https://rationally.github.io/contributing/how-to-start-developing/</link>
+      <pubDate>Tue, 15 Nov 2016 16:37:47 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/contributing/how-to-start-developing/</guid>
+      <description>
+
+&lt;h2 id=&#34;development-environment&#34;&gt;Development Environment&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Microsoft Visual Studio Community Edition
+
+&lt;ul&gt;
+&lt;li&gt;with the following add-ins&lt;/li&gt;
+&lt;li&gt;JetBrains Resharper&lt;/li&gt;
+&lt;li&gt;tbc&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;The following development environment is only a suggestion, you are free to chose the tools and platform you fancy.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;setup-project&#34;&gt;Setup Project&lt;/h2&gt;
+
+&lt;p&gt;Checkout a fresh copy of the source code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/rationally/rationally_visio.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or use the GitHub add-in for Microsoft VisualStudio.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to create a release</title>
+      <link>https://rationally.github.io/contributing/how-to-create-a-release/</link>
+      <pubDate>Tue, 15 Nov 2016 16:37:43 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/contributing/how-to-create-a-release/</guid>
+      <description>
+
+&lt;h2 id=&#34;release-guide&#34;&gt;Release Guide&lt;/h2&gt;
+
+&lt;p&gt;The following list describes the steps that need to be taken in order to release a new version of rationally.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Increase the version number&lt;/strong&gt; in the files &lt;code&gt;RationallyAddin.cs&lt;/code&gt; and &lt;code&gt;product.wxs&lt;/code&gt;. The version number should follow  &lt;a href=&#34;http://semver.org/&#34;&gt;semantic versioning guidelines&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit and push latest changes.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Assert that the &lt;code&gt;setup-project&lt;/code&gt; contains the latest templates and stencils.&lt;/li&gt;
+&lt;li&gt;Assert that the version number in &lt;code&gt;RationallyAddin.cs&lt;/code&gt; and &lt;code&gt;product.wxs&lt;/code&gt; are the same.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Build the msi.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Assert that the msi was built in &lt;code&gt;RELEASE&lt;/code&gt; mode (not DEBUG).&lt;/li&gt;
+&lt;li&gt;Add the version number to the name of the msi. (e.g., &lt;em&gt;rationally_v0-1-2.msi&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Sign the msi using the &lt;a href=&#34;https://msdn.microsoft.com/de-de/library/8s9b9yaz(v=vs.110).aspx&#34;&gt;Microsoft signtool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create a &lt;a href=&#34;https://github.com/rationally/rationally_visio/releases&#34;&gt;release on Github&lt;/a&gt;.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;The release should have the same version number as the msi.&lt;/li&gt;
+&lt;li&gt;Add release notes.&lt;/li&gt;
+&lt;li&gt;Upload the msi file.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;notices warning&#34; &gt;We use a simplified semantic versioning scheme consisting of major.minor.build, e.g., 2.3.4. The version indicator should only contain numbers, otherwise users are not automatically informed about a new release.&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

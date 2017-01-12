@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://rationally.github.io/basics/what-is-rationally/</loc>
+    <lastmod>2016-11-14T15:13:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/basics/requirements/</loc>
+    <lastmod>2016-11-14T15:14:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/contributing/how-to-start-developing/</loc>
+    <lastmod>2016-11-15T16:37:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/basics/getting-started/</loc>
+    <lastmod>2016-11-14T15:14:28+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/contributing/how-to-create-a-release/</loc>
+    <lastmod>2016-11-15T16:37:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/welcome/</loc>
+    <lastmod>2016-11-15T15:51:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/contributing/</loc>
+    <lastmod>2016-11-14T15:15:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/basics/</loc>
+    <lastmod>2016-11-14T15:10:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/basics/</loc>
+    <lastmod>2016-11-14T15:10:03+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/contributing/</loc>
+    <lastmod>2016-11-14T15:15:17+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/welcome/</loc>
+    <lastmod>2016-11-15T15:51:59+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rationally.github.io/</loc>
+    <lastmod>2016-11-14T15:13:09+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

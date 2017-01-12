@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcomes on rationally</title>
+    <link>https://rationally.github.io/welcome/index.xml</link>
+    <description>Recent content in Welcomes on rationally</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Nov 2016 15:51:59 +0100</lastBuildDate>
+    <atom:link href="https://rationally.github.io/welcome/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://rationally.github.io/welcome/</link>
+      <pubDate>Tue, 15 Nov 2016 15:51:59 +0100</pubDate>
+      
+      <guid>https://rationally.github.io/welcome/</guid>
+      <description>
+
+&lt;h3 id=&#34;welcome-to&#34;&gt;Welcome to&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://rationally.github.io/images/logo_vertical.png&#34; width=&#34;150&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;A decision documentation add-in for Microsoft Visio.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a  href=&#34;https://github.com/rationally/rationally_visio/releases/latest&#34; target=&#34;_blank&#34;  class=&#34;btn btn-default&#34;&gt;
+  
+  
+  
+    
+  &lt;i class=&#34;fa fa-arrow-down&#34;&gt;&lt;/i&gt;
+    
+  
+  Get rationally
+  
+&lt;/a&gt;
+
+&lt;a  href=&#34;https://github.com/rationally/rationally_visio&#34; target=&#34;_blank&#34;  class=&#34;btn btn-default&#34;&gt;
+  
+  
+  
+    
+  &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;
+    
+  
+  View Project on GitHub
+  
+&lt;/a&gt;
+
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;small&gt;
+This project is maintained by the &lt;a href=&#34;http://cs.rug.nl/search&#34;&gt;Software Engineering and Architecture research group&lt;/a&gt; of the &lt;a href=&#34;http://www.rug.nl&#34;&gt;University of Groningen&lt;/a&gt;
+&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.rug.nl/about-us/how-to-find-us/huisstijl/logobank/corporatelogo/corporatelogorood/rugr_logoen_rood_rgb.jpg&#34; width=&#34;200&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
